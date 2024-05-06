@@ -4,6 +4,7 @@ from enum import Enum
 
 # def get_choices():
 # this function takes a user input and a random computer selection value
+# and returns both choices
 def get_choices():
     options = ["rock", "paper", "scissors"]
     player_choice = input("Enter a choice (rock, paper, scissors): ")
